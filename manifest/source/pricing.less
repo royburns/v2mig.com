@@ -1,0 +1,291 @@
+.pricing {
+	background: white;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	padding-bottom: 55px;
+
+	.metropolis {
+		text-align: center;
+		p {
+			padding: 41px 0;
+		}
+	}
+
+	.plan-included {
+		margin-top: -15px;
+		margin-bottom: -20px;
+		color: black;
+	}
+
+	.page3 {
+		background: @brand-primary;
+		h3 {
+			color: white;
+		}
+	}
+
+	h2 {
+		max-width: 85%;
+		text-align: center;
+		display: inline-block;
+	}
+	
+	.mobile-responsive {		
+		h1 {
+			color: #222;
+			margin-top: 75px;
+
+			small {
+				color: #777;
+				font-size: 22px;
+				line-height: 28px;
+				display: inline-block;
+				margin-top: 20px;
+			}
+
+			margin-bottom: 0px;
+		}
+	}
+
+	.mobile-responsive h2 {
+		a {
+			color: @brand-primary;
+			font-weight: 800;
+			text-decoration: underline;
+		}
+	}
+
+	a {
+		color: white;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+	.table {
+		padding-top: 20px;
+	}
+
+	.left-arrow, .right-arrow {
+		display: none;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		float: left;
+		font-weight: 800;
+
+		width: 24.5%;
+		padding: 3px;
+
+		li strong {
+			font-size: 18px;
+		}
+
+		&.first {
+			.package {
+				background-color: @second-color;
+			}
+
+			.buy a {
+				background-color: @second-color;
+
+				&:hover {
+					background-color: lighten(@second-color, 10%);
+				}
+			}
+		}
+
+		&.second {
+			.package {
+				background-color: @fourth-color;
+				font-weight: 800;
+
+				small {
+					font-weight: 400;
+					font-size: 12px;
+				}
+			}
+
+			.buy a {
+				background-color: @fourth-color;
+				padding: 17px 10px;
+
+				&:hover {
+					background-color: lighten(@fourth-color, 10%);
+				}
+
+				font-weight: 800;
+			}
+
+			width: 110%;
+			z-index: 1;
+			position: relative;
+			margin-top: -28px;
+			margin-left: -18px;
+			border: 6px solid white;
+			padding: 0px;
+		}
+
+		&.third {
+			.package {
+				background-color: @second-color;
+			}
+
+			.buy a {
+				background-color: @second-color;
+
+				&:hover {
+					background-color: lighten(@second-color, 10%);
+				}
+			}
+		}
+
+		&.fourth {
+			.package {
+				background-color: @first-color;
+			}
+
+			.buy a {
+				background-color: @first-color;
+
+				&:hover {
+					background-color: lighten(@first-color, 10%);
+				}
+			}
+		}
+
+		&.fifth {
+			.package {
+				background-color: #fff;
+				color: #333;
+				text-transform: none;
+			}
+
+			.price {
+				padding: 8px;
+			}
+
+			.buy {
+				margin-bottom: 8px;
+				a {
+					background-color: @fifth-color;
+
+					&:hover {
+						background-color: lighten(@fifth-color, 10%);
+					}
+				}
+			}
+
+
+			li {
+				background: #f0f0f0 !important;
+			}
+		}
+
+
+		li {
+			padding: 1px;
+			color: #333;
+			padding: 20px;
+
+			&:nth-child(odd) {
+				background: #efefef;
+			}
+
+			&:nth-child(even) {
+				background: #fafafa;
+			}
+
+			&.package {
+				font-size: 18px;
+				font-weight: 300;
+				text-transform: uppercase;
+				background: #333;
+				padding: 20px;
+				color: white;
+			}
+
+			&.price {
+				padding: 50px;
+				height: 25px;
+				background: #fafafa;
+
+				.number {
+					font-size: 24px;
+				}
+			}
+
+			&.buy {
+				a {
+					padding: 10px 0;
+					text-transform: uppercase;
+					font-weight: 300;
+					width: 175px;
+					display: inline-block;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 1200px) {
+		ul {
+			width: 24.3%
+		}
+	}
+}
+
+// plans
+
+.you-host {
+	width: 100%;
+
+	strong {
+		text-transform: uppercase;
+
+	}
+	.box {
+		width: 75%;
+		display: inline-block;
+		color: #333;
+		background-color: #eee;
+		padding: 20px;
+		max-width: 300px;
+		margin: 10px;
+	}
+
+	.package {
+		background-color: #fff;
+		color: #333;
+		text-transform: none;
+	}
+
+	.price {
+		padding: 8px;
+	}
+
+	.buy {
+		margin-bottom: 8px;
+		a {
+			background-color: @fifth-color;
+
+			&:hover {
+				background-color: lighten(@fifth-color, 10%);
+			}
+		}
+	}
+
+
+	li {
+		background: #f0f0f0 !important;
+	}
+
+	a {
+		padding: 10px 0;
+		text-transform: uppercase;
+		font-weight: 300;
+		width: 175px;
+		display: inline-block;
+	}
+}
