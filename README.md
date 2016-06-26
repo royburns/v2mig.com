@@ -1,4 +1,4 @@
-##V2MIG
+##V2MIG | The way to migrate, the way to the new life.
 
 A beautiful, responsive landing page specifically for V2MIG.
 
