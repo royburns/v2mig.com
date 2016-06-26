@@ -1,8 +1,8 @@
-##NodeBB
+##V2MIG
 
-A beautiful, responsive landing page specifically for NodeBB.
+A beautiful, responsive landing page specifically for V2MIG.
 
-![NodeBB Marketing Page](http://i.imgur.com/aYolLnl.png)
+![V2MIG Marketing Page](images/V2MIG.png)
 
 ###Features
 
